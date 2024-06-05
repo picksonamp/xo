@@ -1,4 +1,4 @@
-let gameSpace = [firstRow = ['','',''],secondRow = ['','',''], thirdRow = ['','','']];
+let gameSpace = [firstRow = ['', '', ''], secondRow = ['', '', ''], thirdRow = ['', '', '']];
 
 let counter = 0;
 
@@ -9,21 +9,21 @@ one.onclick = () => {
         counter++;
         console.log(gameSpace);
 
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && one.innerHTML === "") {
-    document.getElementById('one').innerHTML = 'O';
-    firstRow[0] = 'O';
-    counter--;
-    console.log(gameSpace);
+    }
 
-    
-    whoWins();
+    if (counter === 1 && one.innerHTML === "") {
+        document.getElementById('one').innerHTML = 'O';
+        firstRow[0] = 'O';
+        counter--;
+        console.log(gameSpace);
 
-}
+
+        whoWins();
+
+    }
 }
 
 two.onclick = () => {
@@ -32,20 +32,20 @@ two.onclick = () => {
         firstRow[1] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && two.innerHTML === "") {
-    document.getElementById('two').innerHTML = 'O';
-    firstRow[1] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && two.innerHTML === "") {
+        document.getElementById('two').innerHTML = 'O';
+        firstRow[1] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 three.onclick = () => {
@@ -54,20 +54,20 @@ three.onclick = () => {
         firstRow[2] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && three.innerHTML === "") {
-    document.getElementById('three').innerHTML = 'O';
-    firstRow[2] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && three.innerHTML === "") {
+        document.getElementById('three').innerHTML = 'O';
+        firstRow[2] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 four.onclick = () => {
@@ -77,20 +77,20 @@ four.onclick = () => {
         secondRow[0] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && four.innerHTML === "") {
-    document.getElementById('four').innerHTML = 'O';
-    secondRow[0] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && four.innerHTML === "") {
+        document.getElementById('four').innerHTML = 'O';
+        secondRow[0] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 five.onclick = () => {
@@ -100,20 +100,20 @@ five.onclick = () => {
         secondRow[1] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && five.innerHTML === "") {
-    document.getElementById('five').innerHTML = 'O';
-    secondRow[1] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && five.innerHTML === "") {
+        document.getElementById('five').innerHTML = 'O';
+        secondRow[1] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 six.onclick = () => {
@@ -122,20 +122,20 @@ six.onclick = () => {
         secondRow[2] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && six.innerHTML === "") {
-    document.getElementById('six').innerHTML = 'O';
-    secondRow[2] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && six.innerHTML === "") {
+        document.getElementById('six').innerHTML = 'O';
+        secondRow[2] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 seven.onclick = () => {
@@ -145,43 +145,43 @@ seven.onclick = () => {
         thirdRow[0] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && seven.innerHTML === "") {
-    document.getElementById('seven').innerHTML = 'O';
-    thirdRow[1] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && seven.innerHTML === "") {
+        document.getElementById('seven').innerHTML = 'O';
+        thirdRow[0] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 eight.onclick = () => {
-    
+
     if (counter === 0 && eight.innerHTML === "") {
         document.getElementById('eight').innerHTML = 'X';
         thirdRow[1] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && eight.innerHTML === "") {
-    document.getElementById('eight').innerHTML = 'O';
-    thirdRow[1] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && eight.innerHTML === "") {
+        document.getElementById('eight').innerHTML = 'O';
+        thirdRow[1] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 nine.onclick = () => {
@@ -191,38 +191,38 @@ nine.onclick = () => {
         thirdRow[2] = 'X';
         counter++;
         console.log(gameSpace);
-        
-    whoWins();
 
-}
+        whoWins();
 
-if (counter === 1 && nine.innerHTML === "") {
-    document.getElementById('nine').innerHTML = 'O';
-    thirdRow[2] = 'O';
-    counter--;
-    console.log(gameSpace);
-    
-    whoWins();
+    }
 
-}
+    if (counter === 1 && nine.innerHTML === "") {
+        document.getElementById('nine').innerHTML = 'O';
+        thirdRow[2] = 'O';
+        counter--;
+        console.log(gameSpace);
+
+        whoWins();
+
+    }
 }
 
 function whoWins() {
-    if (firstRow[0] !== '' && firstRow[0] == firstRow[1] && firstRow[0] == firstRow[2]) {alert( `${firstRow[0]} wins`); window.location.reload()}
-    
-    if (secondRow[0] !== '' && secondRow[0] == secondRow[1] && secondRow[0] == secondRow[2]) {alert( `${secondRow[0]} wins`); window.location.reload()}
-   
-    if (thirdRow[0] !== '' && thirdRow[0] == thirdRow[1] && thirdRow[0] == thirdRow[2]) {alert( `${thirdRow[0]} wins`); window.location.reload()}
+    if (firstRow[0] !== '' && firstRow[0] === firstRow[1] && firstRow[0] === firstRow[2]) { alert(`${firstRow[0]} wins`); window.location.reload() }
 
-    if (firstRow[0] !== '' && firstRow[0] == secondRow[0] && thirdRow[0] == firstRow[0]) {alert( `${thirdRow[0]} wins`); window.location.reload()}
-   
-    if (firstRow[1] !== '' && firstRow[1] == secondRow[1] && thirdRow[1] == firstRow[1]) {alert( `${thirdRow[1]} wins`); window.location.reload()}
-  
-    if (firstRow[2] !== '' && firstRow[2] == secondRow[2] && thirdRow[2] == firstRow[2]) {alert( `${thirdRow[2]} wins`); window.location.reload()}
-   
-    if (firstRow[0] !== '' && firstRow[0] == secondRow[1] && thirdRow[2] == firstRow[0]) {alert( `${thirdRow[2]} wins`); window.location.reload()}
-  
-    if (firstRow[2] !== '' && firstRow[2] == secondRow[1] && thirdRow[0] == firstRow[2]) {alert( `${thirdRow[0]} wins`); window.location.reload()}
+    if (secondRow[0] !== '' && secondRow[0] === secondRow[1] && secondRow[0] === secondRow[2]) { alert(`${secondRow[0]} wins`); window.location.reload() }
+
+    if (thirdRow[0] !== '' && thirdRow[0] === thirdRow[1] && thirdRow[0] === thirdRow[2]) { alert(`${thirdRow[0]} wins`); window.location.reload() }
+
+    if (firstRow[0] !== '' && firstRow[0] === secondRow[0] && thirdRow[0] === firstRow[0]) { alert(`${thirdRow[0]} wins`); window.location.reload() }
+
+    if (firstRow[1] !== '' && firstRow[1] === secondRow[1] && thirdRow[1] === firstRow[1]) { alert(`${thirdRow[1]} wins`); window.location.reload() }
+
+    if (firstRow[2] !== '' && firstRow[2] === secondRow[2] && thirdRow[2] === firstRow[2]) { alert(`${thirdRow[2]} wins`); window.location.reload() }
+
+    if (firstRow[0] !== '' && firstRow[0] === secondRow[1] && thirdRow[2] === firstRow[0]) { alert(`${thirdRow[2]} wins`); window.location.reload() }
+
+    if (firstRow[2] !== '' && firstRow[2] === secondRow[1] && thirdRow[0] === firstRow[2]) { alert(`${thirdRow[0]} wins`); window.location.reload() }
 
     let x = 0;
     let y = 0;
@@ -231,24 +231,24 @@ function whoWins() {
     for (let i = 0; i < firstRow.length; i++) {
 
         if (firstRow[i] !== '') x++;
-    
+
 
         if (secondRow[i] !== '') y++;
-    
+
 
         if (thirdRow[i] !== '') z++;
 
         console.log(`x =  ${x} y = ${y} z = ${z}`);
-}
+    }
 
-if (x === 3 && x === y && x === z) {
-    alert( `nechya`);
-    window.location.reload();
+    if (x === 3 && x === y && x === z) {
+        alert(`nechya`);
+        window.location.reload();
 
-}
-   
+    }
 
 
-    
+
+
 
 }
